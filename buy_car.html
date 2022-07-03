@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Тойота</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="shortcut icon"
+            href="./img/ToyotaLogoRedVer.svg.png"
+            type="image/x-icon"
+        />
+    </head>
+    <body>
+        <header>
+            <a href="./index.html">Головна</a>
+            <a href="./cars.html">Машини</a>
+            <a href="./jeep.html">Джипи</a>
+            <a href="./discount.html">Акції</a>
+            <a href="./about_us.html">Про НАС</a>
+            <a href="#">купити авто</a>
+        </header>
+        <h1>купити авто</h1>
+        <form action="#" method="post">
+            <h2>номер телефону</h2>
+            <input type="tel" placeholder="номер телефону" />
+            <h2>ім'я та фамілія</h2>
+            <input type="text" placeholder="ім'я та фамілія" />
+            <div>
+                <h2>класс</h2>
+                <input type="radio" name="klass" value="бізнес" />
+                <span>бізнес</span>
+            </div>
+            <div>
+                <input type="radio" name="klass" value="економ" />
+                <span>економ</span>
+            </div>
+            <br />
+            <h2>додатково</h2>
+            <input type="checkbox" name="запаска" /><span>запаска</span>
+            <br />
+            <input type="checkbox" name="доставка до дому" /><span
+                >доставка додому</span
+            >
+            <br />
+            <input type="checkbox" name="автомат(передача)" /><span
+                >автомат(передача)</span
+            >
+            <h2>колір</h2>
+            <select name="color">
+                <option value="blue">голубий</option>
+                <option value="yellow">жовтий</option>
+                <option value="red">красний</option>
+                <option value="gray">сірий</option>
+                <option value="white">білий</option>
+            </select>
+            <br />
+            <br />
+            <button type="submit">відправити</button>
+            <button type="reset">обнулити</button>
+            <h2>відгук</h2>
+            <textarea name="" id="" cols="10" rows="3"></textarea>
+        </form>
+    </body>
+</html>
